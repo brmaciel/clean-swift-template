@@ -21,8 +21,7 @@ class ___VARIABLE_sceneName___ViewController: UIViewController {
     // MARK: View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        ___VARIABLE_sceneName___Router.createModule(view: self)
+        
         delegates()
         setupView()
     }
@@ -34,21 +33,13 @@ class ___VARIABLE_sceneName___ViewController: UIViewController {
     //        let destinationVC = segue.destination as! <#destinationViewController#>
     //        destinationVC.<#property#> = <#someValue#>
     //    }
-    // or
-    //    if let scene = segue.identifier {
-    //        let selector = NSSelectorFromString("routeTo\(scene)WithSegue:")
-    //        if let router = router, router.responds(to: selector) {
-    //            router.perform(selector, with: segue)
-    //        }
-    //    }
     //}
     
     
     // MARK: - Setup View Methods
     
     private func delegates() {
-        //<#component#>.delegate = self
-        //<#component#>.dataSource = self
+        
     }
         
     private func setupView() {
@@ -58,11 +49,6 @@ class ___VARIABLE_sceneName___ViewController: UIViewController {
     
     // MARK: - Methods
     
-    func someAction() {
-        // Example of request
-        let request = ___VARIABLE_sceneName___Models.Request()
-        interactor?.makeRequest(request: request)
-    }
     
     
     // MARK: - Button Actions
@@ -76,7 +62,6 @@ class ___VARIABLE_sceneName___ViewController: UIViewController {
 
 // MARK: - Access from Presenter
 extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___PresenterDelegate {
-    func showViewModel(viewModel: ___VARIABLE_sceneName___Models.ViewModel) {
-        // display viewModel
-    }
+    
+    
 }
