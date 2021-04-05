@@ -23,4 +23,9 @@ enum ___VARIABLE_sceneName___Models {
     struct ViewModel {
         
     }
+    
+    /// Data Store
+    struct DataStore {
+        
+    }
 }

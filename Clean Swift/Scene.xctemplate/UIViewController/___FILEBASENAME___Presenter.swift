@@ -10,7 +10,6 @@ import UIKit
 class ___VARIABLE_sceneName___Presenter {
     
     weak var view: ___VARIABLE_sceneName___PresenterDelegate?
-    var router: ___VARIABLE_sceneName___Router?
     
     
     // MARK: - Methods
@@ -22,6 +21,5 @@ class ___VARIABLE_sceneName___Presenter {
 
 // MARK: - Access from Interactor
 extension ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresenterProtocol {
-    
     
 }

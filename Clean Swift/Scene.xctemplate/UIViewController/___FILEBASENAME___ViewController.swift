@@ -10,12 +10,9 @@ import UIKit
 class ___VARIABLE_sceneName___ViewController: UIViewController {
     
     // MARK: Outlets
-    //@IBOutlet weak var label: UILabel!
     
     // MARK: Properties
     var interactor: ___VARIABLE_sceneName___InteractorProtocol?
-    //var viewModel = ___VARIABLE_sceneName___Models.ViewModel()
-    // uncomment the line above if the view uses the ViewModel object
     
     
     // MARK: View Lifecycle
@@ -25,15 +22,6 @@ class ___VARIABLE_sceneName___ViewController: UIViewController {
         delegates()
         setupView()
     }
-    
-    
-    // MARK: Navigation
-    //override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    //    if segue.identifier == "<#segueIdentifier#>" {
-    //        let destinationVC = segue.destination as! <#destinationViewController#>
-    //        destinationVC.<#property#> = <#someValue#>
-    //    }
-    //}
     
     
     // MARK: - Setup View Methods
@@ -53,15 +41,11 @@ class ___VARIABLE_sceneName___ViewController: UIViewController {
     
     // MARK: - Button Actions
     
-    @IBAction func tapButton(_ sender: UIButton) {
-        
-    }
     
 }
 
 
 // MARK: - Access from Presenter
 extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___PresenterDelegate {
-    
     
 }
