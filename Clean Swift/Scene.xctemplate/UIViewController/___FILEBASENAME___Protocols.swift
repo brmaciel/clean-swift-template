@@ -7,8 +7,18 @@
 
 import Foundation
 
+/// Interactor -> Router
+protocol ___VARIABLE_sceneName___RouterProtocol: AnyObject {
+    
+}
+
 /// View -> Interactor
 protocol ___VARIABLE_sceneName___InteractorProtocol: AnyObject {
+    
+}
+
+/// Interactor -> Worker
+protocol ___VARIABLE_sceneName___WorkerProtocol: AnyObject {
     
 }
 

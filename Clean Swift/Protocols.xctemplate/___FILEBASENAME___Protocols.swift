@@ -7,17 +7,27 @@
 
 import Foundation
 
+/// Interactor -> Router
+protocol ___VARIABLE_sceneName___RouterProtocol: AnyObject {
+    
+}
+
 /// View -> Interactor
 protocol ___VARIABLE_sceneName___InteractorProtocol: AnyObject {
-    func makeRequest(request: ___VARIABLE_sceneName___Models.Request) // example of request with response
+    
+}
+
+/// Interactor -> Worker
+protocol ___VARIABLE_sceneName___WorkerProtocol: AnyObject {
+    
 }
 
 /// Interactor -> Presenter
 protocol ___VARIABLE_sceneName___PresenterProtocol: AnyObject {
-    func presentResponse(response: ___VARIABLE_sceneName___Models.Response) // example of request with response
+    
 }
 
 /// Presenter -> View
 protocol ___VARIABLE_sceneName___PresenterDelegate: AnyObject {
-    func showViewModel(viewModel: ___VARIABLE_sceneName___Models.ViewModel) // example of request with response
+    
 }
