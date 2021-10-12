@@ -8,23 +8,23 @@
 import Foundation
 
 enum ___VARIABLE_sceneName___Models {
+    // MARK: Use cases
     
-    /// Object passed from View to Interactor
-    struct Request {
+    enum UseCase {
+        struct Request {
+        }
         
-    }
-    
-    /// Object passed from Interactor to Presenter
-    struct Response {
+        struct Response {
+        }
         
+        struct ViewModel {
+        }
     }
-    
-    /// Object passed from Presenter to View
-    struct ViewModel {
-        
-    }
-    
-    /// Data Store
+}
+
+extension ___VARIABLE_sceneName___Models {
+    // DataStore object is the object to be passes to the next scene
+    // It should implement the protocol that is the dependency of the next scene
     struct DataStore {
         
     }
