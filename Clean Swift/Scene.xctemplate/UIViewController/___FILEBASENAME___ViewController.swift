@@ -9,7 +9,7 @@ import UIKit
 
 class ___VARIABLE_sceneName___ViewController: UIViewController {
     
-    // MARK: Outlets
+    // MARK: Outlets & UI Components
     
     // MARK: Properties
     var interactor: ___VARIABLE_sceneName___InteractorProtocol?
@@ -19,19 +19,23 @@ class ___VARIABLE_sceneName___ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        delegates()
         setupView()
     }
     
-    
-    // MARK: - Setup View Methods
-    
-    private func delegates() {
-        
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
     }
-        
-    private func setupView() {
-        
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
     }
     
     
@@ -39,13 +43,31 @@ class ___VARIABLE_sceneName___ViewController: UIViewController {
     
     
     
-    // MARK: - Button Actions
+    // MARK: - Actions
     
     
 }
 
-
 // MARK: - Access from Presenter
 extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___PresenterDelegate {
     
+}
+
+// MARK: - Setup View Methods
+extension ___VARIABLE_sceneName___ViewController {
+    func setupView() {
+        buildHierarchy()
+        setupConstraints()
+        
+        // Add more setup methods
+    }
+    
+    func buildHierarchy() {
+        
+    }
+    
+    func setupConstraints() {
+        NSLayoutConstraint.activate([
+        ])
+    }
 }
