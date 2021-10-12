@@ -18,7 +18,6 @@ class ___VARIABLE_sceneName___Presenter {
     
 }
 
-
 // MARK: - Access from Interactor
 extension ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresenterProtocol {
     
