@@ -10,6 +10,8 @@ import Foundation
 class ___VARIABLE_sceneName___Interactor {
     
     var presenter: ___VARIABLE_sceneName___PresenterProtocol?
+    var worker: ___VARIABLE_sceneName___WorkerProtocol?
+    var router: ___VARIABLE_sceneName___RouterProtocol?
     
     
     // MARK: - Methods
@@ -18,13 +20,7 @@ class ___VARIABLE_sceneName___Interactor {
     
 }
 
-
 // MARK: - Access from View
 extension ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___InteractorProtocol {
-    func makeRequest(request: ___VARIABLE_sceneName___Models.Request) {
-        // Example of request
-        let response = ___VARIABLE_sceneName___Models.Response()
-        presenter?.presentResponse(response: response)
-    }
     
 }

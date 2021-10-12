@@ -10,7 +10,8 @@ import Foundation
 class ___VARIABLE_sceneName___Interactor {
     
     var presenter: ___VARIABLE_sceneName___PresenterProtocol?
-    var router: ___VARIABLE_sceneName___Router?
+    var worker: ___VARIABLE_sceneName___WorkerProtocol?
+    var router: ___VARIABLE_sceneName___RouterProtocol?
     
     
     // MARK: - Methods
@@ -18,7 +19,6 @@ class ___VARIABLE_sceneName___Interactor {
     
     
 }
-
 
 // MARK: - Access from View
 extension ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___InteractorProtocol {
