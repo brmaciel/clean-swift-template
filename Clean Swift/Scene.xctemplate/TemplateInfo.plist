@@ -5,7 +5,7 @@
 	<key>DefaultCompletionName</key>
 	<string>MyScene</string>
 	<key>Description</key>
-	<string>This generates a new scene using Uncle Bob&apos;s clean architecture. It consists of the view controller, interactor, presenter, and router. You can then create individual workers to supplement the interactor.</string>
+	<string>This generates a new scene using Uncle Bob&apos;s clean architecture. It consists of the view controller, interactor, presenter, router, worker.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Options</key>
@@ -40,7 +40,7 @@
 			<key>Identifier</key>
 			<string>viewControllerName</string>
 			<key>Name</key>
-			<string>View Controller Name:</string>
+			<string>View Controller:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
@@ -54,7 +54,7 @@
 			<key>Identifier</key>
 			<string>interactorName</string>
 			<key>Name</key>
-			<string>Interactor Name:</string>
+			<string>Interactor:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
@@ -68,7 +68,7 @@
 			<key>Identifier</key>
 			<string>presenterName</string>
 			<key>Name</key>
-			<string>Presenter Name:</string>
+			<string>Presenter:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
@@ -82,7 +82,7 @@
 			<key>Identifier</key>
 			<string>routerName</string>
 			<key>Name</key>
-			<string>Router Name:</string>
+			<string>Router:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
@@ -96,7 +96,7 @@
 			<key>Identifier</key>
 			<string>protocolsName</string>
 			<key>Name</key>
-			<string>Protocols Name:</string>
+			<string>Protocols File:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
@@ -110,7 +110,7 @@
 			<key>Identifier</key>
 			<string>workerName</string>
 			<key>Name</key>
-			<string>Worker Name:</string>
+			<string>Worker:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
@@ -124,7 +124,7 @@
 			<key>Identifier</key>
 			<string>modelFileName</string>
 			<key>Name</key>
-			<string>Model File Name:</string>
+			<string>Models File:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>

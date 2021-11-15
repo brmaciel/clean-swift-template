@@ -12,11 +12,11 @@
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>The name of the scene to create</string>
+			<string>The name of the protocols file to create</string>
 			<key>Identifier</key>
 			<string>sceneName</string>
 			<key>Name</key>
-			<string>New Scene Name:</string>
+			<string>Protocols File Name:</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
@@ -40,7 +40,7 @@
 			<key>Identifier</key>
 			<string>protocolsName</string>
 			<key>Name</key>
-			<string>Protocols Name:</string>
+			<string> </string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
