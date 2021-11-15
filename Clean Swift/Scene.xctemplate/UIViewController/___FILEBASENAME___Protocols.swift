@@ -1,11 +1,16 @@
 //
 //  ___FILENAME___
-//  ___PROJECTNAME___
+//  ___PACKAGENAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //
 
 import Foundation
+
+// Scene dependency
+protocol ___VARIABLE_sceneName___Dependency {
+    
+}
 
 /// Interactor -> Router
 protocol ___VARIABLE_sceneName___RouterProtocol: AnyObject {
