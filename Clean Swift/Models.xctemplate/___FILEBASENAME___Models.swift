@@ -1,6 +1,6 @@
 //
 //  ___FILENAME___
-//  ___PROJECTNAME___
+//  ___PACKAGENAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //
@@ -10,7 +10,7 @@ import Foundation
 enum ___VARIABLE_sceneName___Models {
     // MARK: Use cases
     
-    enum UseCase {
+    enum UseCaseOne {
         struct Request {
         }
         
@@ -23,7 +23,7 @@ enum ___VARIABLE_sceneName___Models {
 }
 
 extension ___VARIABLE_sceneName___Models {
-    // DataStore object is the object to be passes to the next scene
+    // DataStore object is the object to be passed to the next scene
     // It should implement the protocol that is the dependency of the next scene
     struct DataStore {
         
