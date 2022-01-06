@@ -5,7 +5,7 @@
 	<key>DefaultCompletionName</key>
 	<string>MyScene</string>
   <key>Description</key>
-  <string>This generates unit tests for your scene using Uncle Bob's clean architecture. It consists of three test files for view controller, interactor, and presenter.</string>
+  <string>This generates unit tests for your scene using Uncle Bob's clean architecture. It consists of five test files for view controller, interactor, presenter, worker and router.</string>
   <key>Kind</key>
   <string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
   <key>Options</key>
@@ -83,6 +83,20 @@
 			<string>workerTestsName</string>
 			<key>Name</key>
 			<string>Worker Tests Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+    </dict>
+    <dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___RouterTests</string>
+			<key>Description</key>
+			<string>The router tests name</string>
+			<key>Identifier</key>
+			<string>routerTestsName</string>
+			<key>Name</key>
+			<string>Router Tests Name:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
